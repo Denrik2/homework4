@@ -72,5 +72,20 @@ public class Main {
         else {
             System.out.println("В вагоне вообще не осталось свободных мест");
         }
+        //Задание 7.
+        int one = 0;
+        int two = 0;
+        int three = 1;
+        System.out.println("Задание №7");
+        if (one > two && one > three) {
+            System.out.println("переменная one больше всех и ровна " + one);
+        }
+        if (two > one && two > three) {
+            System.out.println("переменная two больше всех и ровна " + two);
+        }
+        if (three > two && three > one) {
+            System.out.println("переменная three больше всех и ровна " + three);
+        } else {
+            System.out.println("Переменные равны");}
     }
 }
